@@ -90,6 +90,11 @@ var ruff = dog.bark();
 
 function looper(array) {
   var mySum = 0;
+  //array.forEach(function(num) {
+    // if (num % 2 !== 0 || num >= 100) {
+    // mySum += num;
+   // }
+  // })
   for (var i = 0; i < array.length; i++) {
     if (array[i] % 2 !== 0 || array[i] >= 100) {
       mySum += array[i];
@@ -163,7 +168,7 @@ let bathroomScope = ["duck", "rubberDuck"];
 let bathtubScope = ["duck", "sailorDuck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ["duck", "realDuck"];
+let pondScope = ["duck", "realDuck"]; 
 
 //////////////////PROBLEM 10////////////////////
 
